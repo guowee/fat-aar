@@ -1,0 +1,26 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+dependencies {
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //gradle sdk
+    implementation gradleApi()
+    //groovy sdk
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.0.0'
+    implementation 'com.squareup:javapoet:1.8.0'
+    implementation 'org.jooq:joor:0.9.6'
+    implementation files('libs/jclasslib-library.jar')
+}
+group = GROUP
+version = VERSION_NAME
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../repo'))
+        }
+    }
+}
