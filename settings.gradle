@@ -1,1 +1,1 @@
-include ':app',':fataar-plugin'
+include ':app',':fataar-plugin', ':library'

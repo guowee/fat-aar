@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fat-aar.iml" filepath="$PROJECT_DIR$/fat-aar.iml" />
       <module fileurl="file://$PROJECT_DIR$/fataar-plugin/fataar-plugin.iml" filepath="$PROJECT_DIR$/fataar-plugin/fataar-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>
