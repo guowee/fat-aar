@@ -1,6 +1,6 @@
 # fat-aar
 ## Usage
-**1.Configure the Project build.gradle
+** 1.Configure the Project build.gradle
 ```
 buildscript {
     
@@ -14,7 +14,7 @@ buildscript {
     }
 }
 ```
-**2.Apply the plugin in the module build.gradle
+** 2.Apply the plugin in the module build.gradle
 1. add 'FatLibraryExt'
 
 'enable = true' is mean fat-aar turn on.
